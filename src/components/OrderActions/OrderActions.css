@@ -1,0 +1,43 @@
+.order-actions {
+  max-width: 480px;
+  padding: 69px 67px 118px 67px;
+  background-color: var(--white);
+  border-radius: 4px;
+}
+
+.order-actions-text {
+  text-align: center;
+}
+
+.order-actions-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.order-actions-desc {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--dark);
+}
+
+.btns-wrapper {
+  width: 100%;
+  max-width: 220px;
+  margin: 38px auto 0 auto;
+}
+
+.btns-wrapper button {
+  margin-bottom: 16px;
+  padding: 6px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.btns-wrapper button:last-child {
+  margin-bottom: 0;
+  padding: 5px 0;
+}

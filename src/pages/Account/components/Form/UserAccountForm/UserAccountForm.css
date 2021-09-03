@@ -1,0 +1,22 @@
+.user-account-form {
+  margin-bottom: 50px;
+}
+
+.user-account-form input[type="text"],
+.user-account-form input[type="email"] {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: var(--dark);
+}
+
+.user-account-form .form-row {
+  max-width: 377px;
+  margin: 0 auto 20px auto;
+}
+
+.user-account-form .btn {
+  max-width: 377px;
+  margin: 40px auto 0 auto;
+  display: block;
+}

@@ -1,0 +1,19 @@
+.no-results-empty {
+  width: 100%;
+
+  text-align: center;
+}
+
+.no-results-empty-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #101010;
+  margin-bottom: 10px;
+}
+
+.no-results-empty-desc {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--light-dark);
+}

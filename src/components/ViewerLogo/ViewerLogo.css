@@ -1,0 +1,27 @@
+.viewer_box {
+  display: flex;
+  align-items: center;
+}
+.viewer_box .viewer_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.viewer_box .viewer_without_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #dedee0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--orange);
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--dark-violet);
+}
+
+.chevron_down_icon {
+  margin-left: 11px;
+}

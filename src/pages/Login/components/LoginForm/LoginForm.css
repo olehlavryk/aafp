@@ -1,0 +1,13 @@
+.login_form {
+  width: 365px;
+  margin-top: 32px;
+  background-color: var(--white);
+}
+
+.login_btn {
+  margin-top: 67px;
+}
+
+.login_form .form_row:nth-child(2) {
+  margin-bottom: 0;
+}

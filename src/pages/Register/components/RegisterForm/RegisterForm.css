@@ -1,0 +1,17 @@
+.register_form {
+  width: 365px;
+  margin-top: 48px;
+}
+
+.password_note {
+  margin-top: 3px;
+  max-width: 278px;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--light-dark);
+  display: block;
+}
+
+.register_btn {
+  margin-top: 35px;
+}

@@ -1,0 +1,35 @@
+.cart-page {
+  margin-top: -20px;
+  min-height: 100vh;
+  background: var(--white);
+  border: 1.08px solid #e4e4e4;
+  box-shadow: 0px 5px 15px rgba(121, 121, 121, 0.0527344);
+  padding: 60px 40px 0 40px;
+}
+
+.cart-title {
+  font-size: 25px;
+  line-height: 37px;
+  letter-spacing: 0.4px;
+  color: #000;
+}
+
+.cart-blocks {
+  display: flex;
+  margin-top: 32px;
+}
+
+.cart-left {
+  width: 71%;
+  padding-right: 88px;
+  border-right: 1px solid #eceef0;
+}
+
+.cart-right {
+  width: 29%;
+  padding-left: 46px;
+}
+
+.products-list .cart-product {
+  margin-bottom: 23px;
+}

@@ -1,0 +1,18 @@
+.user-actions {
+  max-width: 425px;
+  padding: 83px 103px 54px 103px;
+  background-color: var(--white);
+  border-radius: 4px;
+}
+
+.btns-wrapper {
+  margin-top: 32px;
+}
+
+.btns-wrapper button {
+  margin-bottom: 25px;
+}
+
+.btns-wrapper button:last-child {
+  margin-bottom: 0;
+}

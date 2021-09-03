@@ -1,0 +1,59 @@
+.ModalWrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 21px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.Modal {
+  position: relative;
+
+  height: auto;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.modal-title {
+  width: 100%;
+  text-align: center;
+}
+
+.basket-empty {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.modal-title {
+  font-size: 22px;
+  line-height: 32px;
+  color: var(--dark);
+  font-weight: normal;
+}

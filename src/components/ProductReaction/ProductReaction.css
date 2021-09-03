@@ -1,0 +1,23 @@
+.product-like-wrap {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 7px;
+  margin-top: 0;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.163407);
+  border-radius: 50%;
+  transition: all 300ms ease-in;
+}
+
+.product-like-wrap:hover svg path {
+  fill: #707070;
+  stroke: #707070;
+}

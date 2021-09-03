@@ -1,0 +1,15 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grey);
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--light-dark);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

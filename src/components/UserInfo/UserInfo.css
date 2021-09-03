@@ -1,0 +1,91 @@
+.user_info {
+  cursor: pointer;
+  position: relative;
+  margin: 0 32px;
+}
+.user_info .user_info_dropdown {
+  width: 234px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 17px 0 0 0;
+  margin-top: 3px;
+  cursor: auto;
+  z-index: 3;
+  margin-top: 22px;
+}
+
+.user_info_line {
+  display: flex;
+  align-items: center;
+}
+
+.short_user_name {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--white);
+  display: inline-blick;
+  margin-right: 15px;
+}
+
+.user_info .user_info_dropdown .user_details_box {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 16px 16px 16px;
+  border-bottom: 1px solid var(--grey);
+}
+.user_info .user_info_dropdown .user_details_box .user_profile {
+  word-break: break-all;
+}
+.user_info .user_info_dropdown .user_details_box .user_profile .user_name {
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: var(--dark);
+}
+.user_info .user_info_dropdown .user_details_box .user_profile .user_email {
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: var(--light-dark);
+}
+.user_info .user_info_dropdown .user_details_box .user_profile .user_text {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #349a89;
+  text-decoration: none;
+}
+.user_info .user_info_dropdown .profile_menu {
+  margin-top: 11px;
+}
+
+.user_info .user_info_dropdown .profile_menu li:last-child {
+  border-radius: 0 0 4px 4px;
+}
+.user_info .user_info_dropdown .profile_menu li:last-child > a {
+  border-radius: 0 0 4px 4px;
+}
+.user_info .user_info_dropdown .profile_menu li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: var(--dark);
+  text-decoration: none;
+  display: block;
+  padding: 0 0 13px 16px;
+  transition: all 100ms ease-in;
+  display: inline-block;
+}
+.user_info .user_info_dropdown .profile_menu li a:hover {
+  color: var(--red);
+}
+
+.logout_link {
+  color: var(--dark-violet);
+}

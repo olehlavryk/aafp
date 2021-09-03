@@ -1,0 +1,26 @@
+.tabs_skeleton {
+  margin: 27px 0 18px 0;
+  display: flex;
+  justify-content: center;
+}
+.products_block_skeleton {
+  padding: 0 27px;
+}
+
+.form_title_wrap {
+  width: 492px;
+  margin: 55px auto 0 auto;
+}
+
+.account_form {
+  width: 377px;
+  margin: 30px auto 0 auto;
+}
+
+.account_form_row {
+  margin-bottom: 20px;
+}
+
+.account_form_btn {
+  margin-top: 40px;
+}

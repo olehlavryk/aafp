@@ -1,0 +1,21 @@
+.qtty-value {
+  font-size: 15px;
+  line-height: 22px;
+  color: #000;
+  margin: 0 10px;
+}
+
+.qtty-minus,
+.qtty-plus {
+  width: 26px;
+  height: 26px;
+  background-color: var(--light-grey);
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--light-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

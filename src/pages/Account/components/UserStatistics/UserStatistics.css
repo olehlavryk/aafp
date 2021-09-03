@@ -1,0 +1,128 @@
+.user_avatar_block {
+  display: flex;
+  justify-content: center;
+}
+.user_avatar_block .user_avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+.user_avatar_block .user_without_avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  font-size: 24px;
+  line-height: 26px;
+  background: var(--grey);
+  color: --var(dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_name {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 32px;
+  color: #141414;
+  margin-top: 8px;
+}
+.user_location {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #9099a7;
+}
+.no_products {
+  text-align: center;
+}
+.tabs_header {
+  margin-top: 27px;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs_header .tab_item {
+  cursor: pointer;
+  border: 1px solid var(--white);
+  min-width: 18%;
+  padding: 29px 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+  border: 1.3px solid var(--grey);
+}
+.tabs_header .tab_item.active {
+  background: var(--orange);
+  color: #fff !important;
+  position: relative;
+}
+.tabs_header .tab_item.active:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -8px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8.5px 0 8.5px;
+  border-color: var(--orange) transparent transparent transparent;
+}
+.tabs_header .tab_item.active .tab_title {
+  color: #fff;
+}
+
+.tabs_header .tab_item:first-child {
+  border-right: none;
+}
+.tabs_header .tab_item:last-child {
+  border-left: none;
+}
+.tabs_header .tab_item .tab_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--dark);
+}
+
+.narrow-pannel {
+  width: 492px;
+}
+
+.tab_panel_content {
+  margin: 55px auto 0 auto;
+}
+.products_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products_list li {
+  width: calc(25% - 12px);
+  margin-bottom: 10px;
+}
+.tabs_skeleton {
+  margin: 27px 0 18px 0;
+  display: flex;
+  justify-content: center;
+}
+.products_block_skeleton {
+  padding: 0 27px;
+}
+
+.account_form_title {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #000;
+  margin-bottom: 30px;
+}

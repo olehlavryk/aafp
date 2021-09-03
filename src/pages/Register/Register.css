@@ -1,0 +1,11 @@
+.register-page .form-wrapper {
+  margin-top: 70px;
+}
+.register-page .form-wrapper,
+.register-page .form-navigator {
+  width: 100%;
+  max-width: 425px;
+  box-shadow: 0 2px 42px rgb(0 0 0 / 11%);
+  margin-left: auto;
+  margin-right: auto;
+}

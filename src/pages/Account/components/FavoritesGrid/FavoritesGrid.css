@@ -1,0 +1,17 @@
+.favorites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.favorites .product {
+  width: calc(25% - 5px);
+  margin-bottom: 10px;
+}
+
+.load-more-wrapper {
+  margin-top: 57px;
+  padding-bottom: 83px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper svg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 12px;
+}
+
+.with-icon select {
+  padding-left: 36px;
+  padding-right: 20px;
+}
+
+select {
+  width: 100%;
+  display: block;
+  background: #f9fafb;
+  border: 1px solid #dedee0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  color: rgba(102, 102, 102, 0.466455);
+  padding: 10px 45px 10px 12px;
+}

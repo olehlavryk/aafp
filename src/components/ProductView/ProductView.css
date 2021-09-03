@@ -1,0 +1,142 @@
+.product-view {
+  width: 100%;
+  max-width: 1003px;
+  background-color: var(--white);
+  border-radius: 4px;
+  padding: 140px 87px 125px 87px;
+}
+
+.top-section {
+  display: flex;
+}
+
+.top-section .image-preview-wrapper {
+  margin-right: 39px;
+  border-radius: 4px;
+  background-color: var(--white);
+  padding: 8px;
+  border: 1px solid var(--grey);
+  box-shadow: 0px 4px 14px rgba(121, 121, 121, 0.0527344);
+}
+
+.top-section .image-preview {
+  width: 401px;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.top-section .product-info {
+  padding: 0;
+}
+
+.product-info .product-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: var(--dark);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.product-info .product-description {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--light-dark);
+  margin-bottom: 31px;
+}
+
+.product-info .product-price {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: var(--dark);
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.product-info .product-price .price-title {
+  width: 39%;
+}
+
+.product-info .product-price .price {
+}
+
+.product-qtty {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.qtty-value {
+  font-size: 15px;
+  line-height: 22px;
+  color: #000;
+  margin: 0 10px;
+}
+
+.qtty-minus,
+.qtty-plus {
+  width: 26px;
+  height: 26px;
+  background-color: var(--light-grey);
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--light-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.total-table {
+}
+
+.qtty-title {
+  padding-right: 32px;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--light-dark);
+  font-weight: normal;
+}
+
+.qtty {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--dark);
+}
+
+.bottom-section {
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondary-btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-section button {
+  border: 2px solid var(--orange);
+  font-weight: bold;
+  width: auto;
+  min-width: 220px;
+}
+
+.secondary-btns button:first-child {
+  margin-right: 35px;
+}
+
+.secondary-btns button {
+}
+
+.buy-btn {
+}
